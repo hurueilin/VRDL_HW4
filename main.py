@@ -68,11 +68,10 @@ if __name__ == "__main__":
     if args.test:
         # run.testFromPb(args.image)
         run.test(args.image)
-    
+
     if args.upscale:
         # run.upscaleFromPb(args.image)
         # run.upscale(args.image)  # RUN THIS!
-        
 
         path = 'dataset/testing_lr_images/'
         files = os.listdir(path)
